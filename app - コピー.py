@@ -144,6 +144,7 @@ st.markdown("""
     暮らしの整え方を紹介します。
 </div>
 
+#診断結果
 st.markdown("""
 <div class="result-card">
     <p class="result-label">診断結果</p>
