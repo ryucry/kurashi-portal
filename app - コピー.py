@@ -144,15 +144,4 @@ st.markdown("""
     暮らしの整え方を紹介します。
 </div>
 
-#診断結果
-st.markdown("""
-<div class="result-card">
-    <p class="result-label">診断結果</p>
-    <p class="result-title">楽しみながら、少しずつ整えるタイプ</p>
-    <p class="result-text">
-        無理に全部を捨てるのではなく、<br>
-        今の暮らしに必要なものを選びながら、<br>
-        自分のペースで整えていくのがおすすめです。
-    </p>
-</div>
 """, unsafe_allow_html=True)
