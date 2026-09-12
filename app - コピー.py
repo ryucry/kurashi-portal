@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="ゆるミニマリスト",
+    page_title="新生活 暮らしアップデート",
     page_icon="🌙",
     layout="wide"
 )
@@ -108,8 +108,8 @@ st.markdown("""
 # ヘッダー
 st.markdown("""
 <div class="header">
-    <div class="logo">ゆるミニマリスト</div>
-    <div class="subtitle">検証ノート</div>
+    <div class="logo">新生活 暮らしアップデート</div>
+    <div class="subtitle">がんばりすぎない、ちょうどいい暮らし</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -118,10 +118,11 @@ st.markdown("""
 menu = st.selectbox(
     "カテゴリーを選択",
     [
-        "ミニマリスト",
-        "一人暮らし",
-        "アイテム",
-        "捨てる・整える"
+        "一人暮らし必需品",
+        "Wi-Fiとsim",
+        "食",
+        "生活必需品",
+        "ふるさと納税"
     ],
     label_visibility="collapsed"
 )
