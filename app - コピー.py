@@ -138,34 +138,23 @@ st.markdown(f"""
 
 # メイン文章
 st.markdown("""
-<div class="main-content">
+<div class="description">
+    「片づけたいのに、なかなか進まない」
+    そんな人に向けて、無理なく続けられる
+    暮らしの整え方を紹介します。
+</div>
 
-    <div class="lead-label">— 調べ尽くして、選ぶ。</div>
+<div class="result-card">
+    <div class="result-label">診断結果</div>
 
-    <div class="catch-copy">
-        暮らしはゆるく、<br>
-        調べるときは本気で。
+    <div class="result-title">
+        楽しみながら、少しずつ整えるタイプ
     </div>
 
-    <div class="description">
-        一人暮らしの買い物と契約を、実際に並べて数えて、
-        から決める検証ノート。<br>
-        タオルは何枚いるか、スマホ代はどこまで下げられるか。
-        数字で決める仕事の癖を、暮らしに持ち込みました。
+    <div class="result-text">
+        無理に全部を捨てるのではなく、
+        今の暮らしに必要なものを選びながら、
+        自分のペースで整えていくのがおすすめです。
     </div>
-
-    <div class="result-card">
-        <div class="result-label">検証した結論</div>
-
-        <div class="result-title">
-            まず試すなら、3,000円台の1枚から
-        </div>
-
-        <div class="result-text">
-            実際に比較した結果、最初から高価なセットを買うより、
-            必要なものを一つずつ試すほうが無駄を減らせます。
-        </div>
-    </div>
-
 </div>
 """, unsafe_allow_html=True)
