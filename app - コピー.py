@@ -35,6 +35,6 @@ with col1:
     st.subheader("🎁 ふるさと納税")
     st.button("準備中", key="tax", disabled=True)
 
-フッター
+#フッター
 st.markdown("---")
 st.caption("一人暮らしの準備をスムーズに。")
