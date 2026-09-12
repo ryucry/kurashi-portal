@@ -126,7 +126,7 @@ menu = st.selectbox(
     ],
     label_visibility="collapsed"
 )
-各カテゴリーに移動先URLを設定
+#各カテゴリーに移動先URLを設定
 category_urls = {
     "一人暮らし必需品": "https://ryucry-kurashi-no-yohaku-app-jbr9xr.streamlit.app/",
     "Wi-Fiとsim": "https://example.com/wifi",
@@ -135,10 +135,10 @@ category_urls = {
     "ふるさと納税": "https://example.com/furusato",
 }
 
-選択されたカテゴリーのURLを取得
+#選択されたカテゴリーのURLを取得
 selected_url = category_urls.get(menu)
 
-一人暮らし必需品を選択した場合
+#一人暮らし必需品を選択した場合
 if menu == "一人暮らし必需品":
     st.markdown(
         f"""
