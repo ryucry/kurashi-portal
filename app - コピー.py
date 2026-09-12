@@ -1,9 +1,9 @@
 import streamlit as st
 
-ページ設定
+#ページ設定
 st.set_page_config(page_title="一人暮らしサポートポータル", page_icon="🏠")
 
-タイトル
+#タイトル
 st.title("🏠 一人暮らしサポートポータル")
 st.write("一人暮らしの準備をサポートするツール集です。")
 
