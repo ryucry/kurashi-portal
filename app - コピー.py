@@ -10,7 +10,7 @@ st.write("一人暮らしの準備をサポートするツール集です。")
 5つのカテゴリーをカード風に表示するための列構成
 col1, col2 = st.columns(2)
 
-一人暮らし必需品（リンク）
+#一人暮らし必需品（リンク）
 with col1:
     st.subheader("🛒 一人暮らし必需品")
     st.link_button("ツールを開く", "https://ryucry-kurashi-no-yohaku-app-jbr9xr.streamlit.app/")
